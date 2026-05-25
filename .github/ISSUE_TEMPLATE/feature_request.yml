@@ -1,0 +1,57 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We'd love to hear your ideas. Please describe the feature you'd like.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      placeholder: Describe the problem or use case.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      placeholder: How would this feature work?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      placeholder: Any other approaches or workarounds?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Editor (Rich Text)
+        - Editor (Canvas)
+        - Editor (Kanban)
+        - Editor (Table)
+        - Editor (Todo)
+        - Editor (Gantt)
+        - Editor (Mind Map)
+        - Editor (Timeline)
+        - Editor (Slides)
+        - Editor (Audio Transcript)
+        - AI / Chat
+        - Search
+        - Graph View
+        - Import / Export
+        - Settings
+        - New editor type
+        - Other
+    validations:
+      required: true

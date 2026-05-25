@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Website
+    url: https://notebrain.ai
+    about: Visit the NoteBrain website
+  - name: Web App
+    url: https://app.notebrain.ai
+    about: Try NoteBrain in your browser
