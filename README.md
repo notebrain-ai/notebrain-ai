@@ -13,6 +13,8 @@
   <a href="https://notebrain.ai">Website</a> &bull;
   <a href="https://app.notebrain.ai">Web App</a> &bull;
   <a href="https://github.com/notebrain-ai/notebrain-ai/releases/latest"><strong>Latest Release</strong></a> &bull;
+  <a href="docs/getting-started.md">Getting Started</a> &bull;
+  <a href="docs/ai-setup.md">AI Setup</a> &bull;
   <a href="CHANGELOG.md">Changelog</a>
 </p>
 
@@ -36,6 +38,8 @@ Auto-update is wired through this release feed — once installed, the app keeps
 ## What is NoteBrain AI?
 
 A local-first second brain with rich text, canvas, kanban, table, todo, gantt, mind map, and timeline editors — plus AI chat grounded in your own notes (RAG). Your data stays on your device unless you opt into the Cloud plan.
+
+New here? Start with the **[Getting Started](docs/getting-started.md)** guide. For AI provider options (Ollama, your own keys, NoteBrain Cloud), see **[AI Setup](docs/ai-setup.md)**.
 
 Full feature tour and pricing on **[notebrain.ai](https://notebrain.ai)**.
 
@@ -72,6 +76,8 @@ In NoteBrain AI: **Settings → AI → Speech-to-text** → pick a model:
 ### Result
 
 Notes, transcripts, AI queries, embeddings, semantic search — all stay on your device. No API calls, no roundtrips. Combine with the desktop app's local-filesystem storage and you have a fully offline second brain.
+
+For all AI provider options — including bringing your own Gemini / OpenAI / Claude API keys, or using NoteBrain Cloud AI — see the full **[AI Setup](docs/ai-setup.md)** guide.
 
 ## About this repo
 

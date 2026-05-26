@@ -5,7 +5,7 @@
 ### Desktop (recommended)
 
 Download the latest desktop build from the
-[GitHub Releases page](https://github.com/notebrain-ai/notebrain/releases/latest)
+[GitHub Releases page](https://github.com/notebrain-ai/notebrain-ai/releases/latest)
 (or use the [notebrain.ai/download](https://notebrain.ai/download) shortcut, which
 auto-detects your OS and links to the right asset):
 
@@ -15,66 +15,55 @@ auto-detects your OS and links to the right asset):
 
 Once installed, NoteBrain auto-updates from the same release feed.
 
+For a 100% local & private setup with Ollama and local speech-to-text, see [AI setup](./ai-setup.md).
+
 ### Web
 
 Visit [app.notebrain.ai](https://app.notebrain.ai) to use NoteBrain directly in your browser. No account required.
 
-> Note: The web version uses IndexedDB for storage. Desktop uses your local filesystem, which is more robust for large note collections.
+> The web version uses IndexedDB for storage. Desktop uses your local filesystem, which is more robust for large note collections.
 
-## Creating your first note
+---
 
-1. Click the **+** button in the sidebar
-2. Choose a note type (Text, Kanban, Canvas, etc.)
-3. Start writing
+## Welcome to NoteBrain
 
-## Note types
+Your second brain — notes, drawings, tables, AI chat, and search all linked together. Everything is **local-first**: nothing leaves your device unless you turn on cloud sync.
 
-- **Text** — Rich text with Markdown support. Toggle between WYSIWYG, split, and source modes.
-- **Todo** — Task lists with checkboxes, due dates, and progress bars. Cards wrap responsively.
-- **Kanban** — Drag-and-drop board with customizable columns.
-- **Canvas** — Infinite whiteboard for diagrams, sketches, and visual thinking.
-- **Table** — Full spreadsheet with formulas, formatting, and toolbar.
-- **Gantt** — Project timeline with task bars and dependencies.
-- **Mind Map** — Visual mind mapping for brainstorming.
-- **Timeline** — Interactive event timeline.
-- **Slides** — Markdown-based presentations. Edit slides individually, present fullscreen.
-- **Audio Transcript** — Record audio or upload a file. Automatically transcribed to searchable text.
+> 📥 **Already have notes elsewhere?** Import from Obsidian, Notion, Markdown, a folder… via **Settings → Import / Export**.
 
-## Organizing notes
+## See what's here
 
-- **Folders** — Right-click in the sidebar to create folders
-- **Drag and drop** — Move notes between folders by dragging
-- **Tags** — Add tags to notes for cross-cutting organization
-- **Wiki links** — Link between notes with `[Title](note://id)` syntax
+When you first open the app, a sample folder appears with one note per editor type plus a fictional project so you can poke around.
 
-## Search
+## The editor types
 
-Press `Ctrl+K` (or `Cmd+K` on macOS) to open the search overlay. Search instantly across all your notes.
+- ✅ **Todo List** — daily tasks and project checklists with due dates
+- 📋 **Kanban Board** — project tracking board (Backlog → In progress → Done)
+- 📊 **Gantt Chart** — project planning with timelines and dependencies
+- 💰 **Spreadsheet** — budgets, tables, and lists with totals
+- 🎨 **Canvas** — free drawing and diagrams (Excalidraw)
+- 🧠 **Mindmap** — brainstorm ideas as branching topics and relations
+- 📅 **Timeline** — trip itineraries, history, project milestones
 
-## AI Chat
+A fictional project — **Project: Orbit — App Launch** — ties several of these together.
 
-Open the AI panel to chat with an assistant that has context from your notes. Supports:
+## The features
 
-- **Cloud AI** — 100K free tokens, or subscribe for more
-- **Own API keys** — Add your Gemini, OpenAI, or Claude key in Settings
-- **Ollama** — Run AI locally for free (desktop only)
+- ✨ **Ask AI Assistant** — anything about your notes (using RAG).
+- 🤖 **Ask AI** — select any text, then click the floating **🤖 Ask AI** pill to summarize, translate, rewrite, expand, turn into a checklist, and more
+- ✨ **AI for structured notes** — Todo / Kanban / Gantt / Timeline / Mindmap each have an **✨ AI** button in the header to fill them from a one-line prompt
+- 🎙 **Voice Recorder** — click **🎙 Record** in the editor header to speak; a transcript is inserted at the cursor
+- 📎 **Attachments** — drag a PDF or paste an image onto a note; their contents are searchable
+- 📄 **PDF Export** — **⬇ Export as PDF** button in the editor header turns any note into a styled PDF
+- 🧩 **Templates** — right-click any note → **Make Template**; create new notes from it with `{{title}}` / `{{date}}` placeholders
+- 🕸 **Graph view** — visual map of how your notes link together
+- 📓 **Journal** — one note per day, with a calendar in the sidebar
+- 🔎 **Search** — keyword + semantic, across notes and attachments
+- ✍️ **Editor your way** — write in WYSIWYG, raw Markdown, or hybrid (WYSIWYG with inline Markdown syntax)
+- 🔓 **No product or format lock-in** — export any note (or all of them) as plain Markdown, any time
+- ⚙️ **Settings** — pick your AI provider (NoteBrain, Gemini, OpenAI, Claude, or local Ollama), voice transcription engine, storage, sync, import / export
 
-## Import
+## Next steps
 
-Bring your existing notes from other apps:
-
-1. Open the sidebar menu
-2. Click **Import**
-3. Choose your source: Notion, Obsidian, Trilium, or Markdown folder
-4. Select the `.zip` export file
-
-## Keyboard shortcuts
-
-| Shortcut | Action |
-|----------|--------|
-| `Ctrl+K` | Search |
-| `Ctrl+B` | Bold |
-| `Ctrl+I` | Italic |
-| `Ctrl+Space` | AI prompt (in text editor) |
-| `Ctrl+S` | Save slide edit |
-| `Esc` | Exit presentation / cancel edit |
+- [AI setup](./ai-setup.md) — connect Ollama, your own API keys, or NoteBrain Cloud AI
+- [notebrain.ai](https://notebrain.ai) — full feature tour and pricing
